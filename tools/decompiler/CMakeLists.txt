@@ -46,8 +46,8 @@ sleigh_add_optional_defines(sleigh_decompiler PRIVATE)
 
 set_target_properties(sleigh_decompiler PROPERTIES
   EXPORT_NAME decompiler
-  OUTPUT_NAME decomp
-  OUTPUT_NAME_DEBUG decomp_dbg
+  OUTPUT_NAME sleigh-decomp
+  OUTPUT_NAME_DEBUG sleigh-decomp_dbg
 )
 
 find_package(ZLIB REQUIRED)

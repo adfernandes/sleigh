@@ -41,8 +41,8 @@ target_compile_definitions(sleigh_ghidra PRIVATE
 sleigh_add_optional_defines(sleigh_ghidra PRIVATE)
 
 set_target_properties(sleigh_ghidra PROPERTIES
-  EXPORT_NAME ghidra
-  OUTPUT_NAME ghidra
+  EXPORT_NAME sleigh-ghidra
+  OUTPUT_NAME sleigh-ghidra
   OUTPUT_NAME_DEBUG ghidra_dbg
 )
 
